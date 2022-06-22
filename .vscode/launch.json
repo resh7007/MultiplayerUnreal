@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Blaster (Debug)",
+			"request": "launch",
+			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"preLaunchTask": "Blaster Mac Debug Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Blaster (DebugGame)",
+			"request": "launch",
+			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"preLaunchTask": "Blaster Mac DebugGame Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Blaster (Development)",
+			"request": "launch",
+			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"preLaunchTask": "Blaster Mac Development Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Blaster (Test)",
+			"request": "launch",
+			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"preLaunchTask": "Blaster Mac Test Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Blaster (Shipping)",
+			"request": "launch",
+			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"preLaunchTask": "Blaster Mac Shipping Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch BlasterEditor (Debug)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+			"preLaunchTask": "BlasterEditor Mac Debug Build",
+			"args": [
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch BlasterEditor (DebugGame)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+			"preLaunchTask": "BlasterEditor Mac DebugGame Build",
+			"args": [
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch BlasterEditor (Development)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+			"preLaunchTask": "BlasterEditor Mac Development Build",
+			"args": [
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.0",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/Users/Shared/Epic Games/UE_5.0"
+		}
+	]
+}

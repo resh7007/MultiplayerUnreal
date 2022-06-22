@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Blaster Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"Mac",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Test",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Blaster IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "Blaster IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Blaster",
+				"IOS",
+				"Shipping",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Debug",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BlasterEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		},
+		{
+			"label": "BlasterEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BlasterEditor",
+				"Mac",
+				"Development",
+				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.0"
+			}
+		}
+	]
+}
