@@ -36,8 +36,9 @@ ABlasterCharacter::ABlasterCharacter()
 	GetCharacterMovement()->NavAgentProps.bCanCrouch=true;
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
 	GetMesh()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Ignore);
-	TurningInPlace = ETurningInPlace::ETIP_NotTurning;
+	GetCharacterMovement()->RotationRate = FRotator(0.f,0.f,850.f);
 
+	TurningInPlace = ETurningInPlace::ETIP_NotTurning;
 	NetUpdateFrequency = 66.f;
 	MinNetUpdateFrequency = 33.f;
 
@@ -65,7 +66,7 @@ void ABlasterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABlasterCharacter::Jump);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ABlasterCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABlasterCharacter::MoveRight);
@@ -213,7 +214,15 @@ void ABlasterCharacter::AimOffset(float DeltaTime)
 	}
 
 }
-
+void ABlasterCharacter::Jump() 
+{
+	if(bIsCrouched)
+	{
+		UnCrouch();
+	}
+	else
+		Super::Jump();
+}
 
 void ABlasterCharacter::TurnInPlace (float DeltaTime)
 {
