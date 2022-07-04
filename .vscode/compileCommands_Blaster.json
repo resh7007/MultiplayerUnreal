@@ -115,6 +115,26 @@
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
+		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
 		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Weapon.cpp",
 		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
