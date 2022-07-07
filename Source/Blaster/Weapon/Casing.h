@@ -29,4 +29,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	class USoundCue* ShellSound;
+	void DestroyCasing();
+	FTimerHandle InputTimeHandle;
+	bool bCasingHitFloor;
 };
