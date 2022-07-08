@@ -4,7 +4,7 @@
 		{
 			"name": "Launch Blaster (Debug)",
 			"request": "launch",
-			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"program": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
 			"preLaunchTask": "Blaster Mac Debug Build",
 			"args": [
 			],
@@ -14,7 +14,7 @@
 		{
 			"name": "Launch Blaster (DebugGame)",
 			"request": "launch",
-			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"program": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
 			"preLaunchTask": "Blaster Mac DebugGame Build",
 			"args": [
 			],
@@ -24,7 +24,7 @@
 		{
 			"name": "Launch Blaster (Development)",
 			"request": "launch",
-			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"program": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
 			"preLaunchTask": "Blaster Mac Development Build",
 			"args": [
 			],
@@ -34,7 +34,7 @@
 		{
 			"name": "Launch Blaster (Test)",
 			"request": "launch",
-			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"program": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
 			"preLaunchTask": "Blaster Mac Test Build",
 			"args": [
 			],
@@ -44,7 +44,7 @@
 		{
 			"name": "Launch Blaster (Shipping)",
 			"request": "launch",
-			"program": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"program": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
 			"preLaunchTask": "Blaster Mac Shipping Build",
 			"args": [
 			],
@@ -57,7 +57,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
 			"preLaunchTask": "BlasterEditor Mac Debug Build",
 			"args": [
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.0",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
 			"preLaunchTask": "BlasterEditor Mac DebugGame Build",
 			"args": [
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.0",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"program": "/Users/Shared/Epic Games/UE_5.0/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
 			"preLaunchTask": "BlasterEditor Mac Development Build",
 			"args": [
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject"
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject"
 			],
 			"cwd": "/Users/Shared/Epic Games/UE_5.0",
 			"type": "lldb"
@@ -92,7 +92,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"-project=/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-game",
 				"-engine"
 			],

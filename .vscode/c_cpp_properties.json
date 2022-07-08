@@ -7,7 +7,7 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "compileCommands": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster.json",
+            "compileCommands": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         },
@@ -18,7 +18,7 @@
                 "/System/Library/Frameworks",
                 "/Library/Frameworks"
             ],
-            "compileCommands": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Default.json",
+            "compileCommands": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Default.json",
             "cStandard": "c17",
             "cppStandard": "c++17"
         }

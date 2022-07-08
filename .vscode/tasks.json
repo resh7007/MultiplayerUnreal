@@ -9,7 +9,7 @@
 				"Blaster",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -26,7 +26,7 @@
 				"Blaster",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -46,7 +46,7 @@
 				"Blaster",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -64,7 +64,7 @@
 				"Blaster",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -81,7 +81,7 @@
 				"Blaster",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -101,7 +101,7 @@
 				"Blaster",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -119,7 +119,7 @@
 				"Blaster",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -136,7 +136,7 @@
 				"Blaster",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -156,7 +156,7 @@
 				"Blaster",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -174,7 +174,7 @@
 				"Blaster",
 				"Mac",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -191,7 +191,7 @@
 				"Blaster",
 				"Mac",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -211,7 +211,7 @@
 				"Blaster",
 				"Mac",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -229,7 +229,7 @@
 				"Blaster",
 				"Mac",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -246,7 +246,7 @@
 				"Blaster",
 				"Mac",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -266,7 +266,7 @@
 				"Blaster",
 				"Mac",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -284,7 +284,7 @@
 				"Blaster",
 				"IOS",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -301,7 +301,7 @@
 				"Blaster",
 				"IOS",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -321,7 +321,7 @@
 				"Blaster",
 				"IOS",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -339,7 +339,7 @@
 				"Blaster",
 				"IOS",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -356,7 +356,7 @@
 				"Blaster",
 				"IOS",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -376,7 +376,7 @@
 				"Blaster",
 				"IOS",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -394,7 +394,7 @@
 				"Blaster",
 				"IOS",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -411,7 +411,7 @@
 				"Blaster",
 				"IOS",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -431,7 +431,7 @@
 				"Blaster",
 				"IOS",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -449,7 +449,7 @@
 				"Blaster",
 				"IOS",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -466,7 +466,7 @@
 				"Blaster",
 				"IOS",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -486,7 +486,7 @@
 				"Blaster",
 				"IOS",
 				"Test",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -504,7 +504,7 @@
 				"Blaster",
 				"IOS",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 				"Blaster",
 				"IOS",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -541,7 +541,7 @@
 				"Blaster",
 				"IOS",
 				"Shipping",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -559,7 +559,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -576,7 +576,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -596,7 +596,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Debug",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -614,7 +614,7 @@
 				"BlasterEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -631,7 +631,7 @@
 				"BlasterEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -651,7 +651,7 @@
 				"BlasterEditor",
 				"Mac",
 				"DebugGame",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],
@@ -669,7 +669,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -686,7 +686,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -706,7 +706,7 @@
 				"BlasterEditor",
 				"Mac",
 				"Development",
-				"/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Blaster.uproject",
+				"/Users/raushanmac/Documents/repo/MultiplayerUnreal/Blaster.uproject",
 				"-waitmutex",
 				"-clean"
 			],

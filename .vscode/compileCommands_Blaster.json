@@ -1,177 +1,187 @@
 [
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/MultiplayerSessions.Build.cs",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/MultiplayerSessions.Build.cs",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/Menu.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/Menu.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/MultiplayerSessions.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/MultiplayerSessions.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/MultiplayerSessionsSubsystem.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Private/MultiplayerSessionsSubsystem.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/Menu.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/Menu.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/MultiplayerSessions.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/MultiplayerSessions.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/MultiplayerSessionsSubsystem.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Plugins/MultiplayerSessions/Source/MultiplayerSessions/Public/MultiplayerSessionsSubsystem.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/MultiplayerSessions.44.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Blaster.Build.cs",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Blaster.Build.cs",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Blaster.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Blaster.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Blaster.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Blaster.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/BlasterComponents/CombatComponent.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/BlasterComponents/CombatComponent.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/BlasterComponents/CombatComponent.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/BlasterComponents/CombatComponent.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/BlasterGameModeBase.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/BlasterGameModeBase.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/BlasterGameModeBase.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/BlasterGameModeBase.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/BlasterTypes/TurningInPlace.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/BlasterTypes/TurningInPlace.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Character/BlasterAnimInstance.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Character/BlasterAnimInstance.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Character/BlasterAnimInstance.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Character/BlasterAnimInstance.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Character/BlasterCharacter.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Character/BlasterCharacter.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Character/BlasterCharacter.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Character/BlasterCharacter.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/GameMode/LobbyGameMode.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/GameMode/LobbyGameMode.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/GameMode/LobbyGameMode.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/GameMode/LobbyGameMode.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/HUD/BlasterHUD.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/HUD/BlasterHUD.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/HUD/BlasterHUD.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/HUD/BlasterHUD.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/HUD/OverheadWidget.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/HUD/OverheadWidget.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/HUD/OverheadWidget.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/HUD/OverheadWidget.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/PlayerController/BlasterPlayerController.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Interfaces/InteractWithCrosshairsInterface.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/PlayerController/BlasterPlayerController.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Interfaces/InteractWithCrosshairsInterface.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Casing.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/PlayerController/BlasterPlayerController.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Casing.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/PlayerController/BlasterPlayerController.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Casing.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Casing.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Projectile.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Weapon.cpp",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
-		"file": "/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/Source/Blaster/Weapon/Weapon.h",
-		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/GitHub/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/ProjectileWeapon.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Weapon.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/Weapon/Weapon.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	}
 ]
