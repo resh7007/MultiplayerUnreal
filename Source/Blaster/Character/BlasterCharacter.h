@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Blaster/BlasterTypes/TurningInPlace.h"
 #include "Blaster/Interfaces/InteractWithCrosshairsInterface.h"
+#include "Components/TimelineComponent.h"
 #include "BlasterCharacter.generated.h"
 UCLASS()
 class BLASTER_API ABlasterCharacter : public ACharacter, public IInteractWithCrosshairsInterface
@@ -104,7 +105,6 @@ private:
 
 	/**
 	 * Player Health
-	 * 
 	 */
 	UPROPERTY(EditAnywhere, Category = "Player Stats")
 	float MaxHealth = 100.f;
@@ -120,8 +120,31 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float ElimDelay = 3.f;
-	
+
 	void ElimTimerFinished();
+
+	/**
+	 * Dissolve Effect
+	 */
+	UPROPERTY (VisibleAnywhere)
+	UTimelineComponent* DissolveTimeline;
+
+	FOnTimelineFloat DissolveTrack;
+
+	UPROPERTY (EditAnywhere)
+	UCurveFloat* DissolveCurve;
+	UFUNCTION()
+	void UpdateDissolveMaterial(float DissolveValue);
+
+	void StartDissolve();
+	
+	//Dynamic instance that we change at runtime
+	UPROPERTY (VisibleAnywhere, Category = Elim)
+	UMaterialInstanceDynamic* DynamicDissolveMaterialInstance;
+
+	//mateiral instance set on BluePrint, used with dynamic material instance
+	UPROPERTY (EditAnywhere, Category = Elim)
+	UMaterialInstance* DissolveMaterialInstance;
 public:	 
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
