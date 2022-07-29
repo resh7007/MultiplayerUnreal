@@ -15,9 +15,11 @@
 #include "Blaster/Blaster.h"
 #include "Blaster/PlayerController/BlasterPlayerController.h"
 #include "Blaster/GameMode/BlasterGameMode.h"
+#include "TimerManager.h"
 ABlasterCharacter::ABlasterCharacter()
 { 
 	PrimaryActorTick.bCanEverTick = true;
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetMesh());
 	CameraBoom->TargetArmLength = 600.0f;
@@ -65,11 +67,34 @@ ABlasterCharacter::ABlasterCharacter()
 
 	TimeSinceLastMovementReplication = 0;
  }
- void ABlasterCharacter::Elim_Implementation()
+void ABlasterCharacter::Elim()
+ {
+	MulticastElim();
+	GetWorldTimerManager().SetTimer(
+		ElimTimer,
+		this,
+		&ABlasterCharacter::ElimTimerFinished,
+		ElimDelay
+	);
+ }
+
+ void ABlasterCharacter::MulticastElim_Implementation()
  {
 	bElimmed = true;
 	PlayElimMontage();
  }
+
+void ABlasterCharacter::ElimTimerFinished()
+{
+	ABlasterGameMode* BlasterGameMode = GetWorld()->GetAuthGameMode<ABlasterGameMode>();
+	if(BlasterGameMode)
+	{
+		BlasterGameMode->RequestRespawn(this, Controller);
+	}
+	
+}
+
+
 void ABlasterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
@@ -177,12 +202,12 @@ void ABlasterCharacter::ReceiveDamage(AActor* DamagedActor, float Damage, const 
 
 	if(Health == 0.f)
 	{
-		ABlasterGameMode* BLasterGameMode = GetWorld()->GetAuthGameMode<ABlasterGameMode>();
-		if(BLasterGameMode)
+		ABlasterGameMode* BlasterGameMode = GetWorld()->GetAuthGameMode<ABlasterGameMode>();
+		if(BlasterGameMode)
 		{
 			BlasterPlayerController = BlasterPlayerController == nullptr ? Cast<ABlasterPlayerController>(Controller) : BlasterPlayerController;
 			ABlasterPlayerController* AttackerController = Cast<ABlasterPlayerController>(InstigatorController);
-			BLasterGameMode->PlayerEliminated(this, BlasterPlayerController, AttackerController);
+			BlasterGameMode->PlayerEliminated(this, BlasterPlayerController, AttackerController);
 		}
 	}
 }
