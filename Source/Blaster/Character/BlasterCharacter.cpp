@@ -13,7 +13,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "BlasterAnimInstance.h"
 #include "Blaster/Blaster.h"
-
+#include "Blaster/PlayerController/BlasterPlayerController.h"
 ABlasterCharacter::ABlasterCharacter()
 { 
 	PrimaryActorTick.bCanEverTick = true;
@@ -67,7 +67,12 @@ ABlasterCharacter::ABlasterCharacter()
 void ABlasterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	UpdateHUDHealth();
+	if(HasAuthority())
+	{
+		OnTakeAnyDamage.AddDynamic(this, &ABlasterCharacter::ReceiveDamage);
+	}
 } 
 void ABlasterCharacter::Tick(float DeltaTime)
 {
@@ -149,6 +154,15 @@ void ABlasterCharacter::PlayHitReactMontage()
 		AnimInstance->Montage_JumpToSection(SectionName);
 	}
 }
+
+void ABlasterCharacter::ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser)
+{
+	Health = FMath::Clamp(Health-Damage, 0.f, MaxHealth);
+	UpdateHUDHealth();
+	PlayHitReactMontage();
+
+}
+
 
 void ABlasterCharacter::MoveForward(float Value)
 {
@@ -373,11 +387,7 @@ void ABlasterCharacter::TurnInPlace (float DeltaTime)
 	}
 	 
 }
-
-void ABlasterCharacter::MulticastHit_Implementation()
-{
-	 PlayHitReactMontage();
-}
+ 
 
 
 void ABlasterCharacter::HideCameraIfCharacterClose()
@@ -404,9 +414,17 @@ void ABlasterCharacter::HideCameraIfCharacterClose()
 
 void ABlasterCharacter::OnRep_Health()
 {
-
+	UpdateHUDHealth();
+	PlayHitReactMontage();
 }
-
+void ABlasterCharacter::UpdateHUDHealth()
+{
+	BlasterPlayerController = BlasterPlayerController == nullptr ? Cast<ABlasterPlayerController>(Controller) : BlasterPlayerController;
+	if(BlasterPlayerController)
+	{
+		BlasterPlayerController->SetHUDHealth(Health,MaxHealth);
+	}
+}
 
 void ABlasterCharacter::SetOverlappingWeapon(AWeapon* Weapon)
 {
