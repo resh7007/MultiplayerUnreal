@@ -14,6 +14,7 @@
 #include "BlasterAnimInstance.h"
 #include "Blaster/Blaster.h"
 #include "Blaster/PlayerController/BlasterPlayerController.h"
+#include "Blaster/GameMode/BlasterGameMode.h"
 ABlasterCharacter::ABlasterCharacter()
 { 
 	PrimaryActorTick.bCanEverTick = true;
@@ -63,6 +64,10 @@ ABlasterCharacter::ABlasterCharacter()
 	SimProxiesTurn();
 
 	TimeSinceLastMovementReplication = 0;
+ }
+ void ABlasterCharacter::Elim()
+ {
+
  }
 void ABlasterCharacter::BeginPlay()
 {
@@ -161,6 +166,16 @@ void ABlasterCharacter::ReceiveDamage(AActor* DamagedActor, float Damage, const 
 	UpdateHUDHealth();
 	PlayHitReactMontage();
 
+	if(Health == 0.f)
+	{
+		ABlasterGameMode* BLasterGameMode = GetWorld()->GetAuthGameMode<ABlasterGameMode>();
+		if(BLasterGameMode)
+		{
+			BlasterPlayerController = BlasterPlayerController == nullptr ? Cast<ABlasterPlayerController>(Controller) : BlasterPlayerController;
+			ABlasterPlayerController* AttackerController = Cast<ABlasterPlayerController>(InstigatorController);
+			BLasterGameMode->PlayerEliminated(this, BlasterPlayerController, AttackerController);
+		}
+	}
 }
 
 
