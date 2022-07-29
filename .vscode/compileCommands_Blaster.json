@@ -85,6 +85,16 @@
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
 	},
 	{
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/GameMode/BlasterGameMode.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
+		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/GameMode/BlasterGameMode.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
+		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
+	},
+	{
 		"file": "/Users/raushanmac/Documents/repo/MultiplayerUnreal/Source/Blaster/GameMode/LobbyGameMode.cpp",
 		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @/Users/raushanmac/Documents/repo/MultiplayerUnreal/.vscode/compileCommands_Blaster/Blaster.207.rsp",
 		"directory": "/Users/Shared/Epic Games/UE_5.0/Engine/Source"
