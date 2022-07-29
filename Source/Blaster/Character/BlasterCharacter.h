@@ -27,6 +27,7 @@ public:
 	
 	UFUNCTION(NetMulticast, Reliable)
 	void MulticastElim(); 
+	virtual void Destroyed() override;
 protected:
 	virtual void BeginPlay() override;
 	
@@ -145,6 +146,19 @@ private:
 	//mateiral instance set on BluePrint, used with dynamic material instance
 	UPROPERTY (EditAnywhere, Category = Elim)
 	UMaterialInstance* DissolveMaterialInstance;
+
+	/**
+	 * Elim bot
+	 */
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* ElimBotEffect;
+
+	UPROPERTY (VisibleAnywhere)
+	UParticleSystemComponent* ElimBotComponent;
+
+	UPROPERTY(EditAnywhere)
+	class USoundCue* ElimBotSound;
+
 public:	 
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
