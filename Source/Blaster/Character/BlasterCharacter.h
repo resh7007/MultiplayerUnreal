@@ -50,7 +50,8 @@ protected:
 	UFUNCTION()
 	void ReceiveDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* InstigatorController, AActor* DamageCauser);
 	void UpdateHUDHealth();
-
+	// Poll for any relevant classes and initialize our HUD
+	void PollInit();
 private:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	class USpringArmComponent* CameraBoom;
@@ -159,6 +160,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	class USoundCue* ElimBotSound;
 
+	class ABlasterPlayerState* BlasterPlayerState;
 public:	 
 	void SetOverlappingWeapon(AWeapon* Weapon);
 	bool IsWeaponEquipped();
@@ -172,5 +174,9 @@ public:
 	FORCEINLINE UCameraComponent* GetFollowCamera() const{return FollowCamera;}
 	FORCEINLINE bool ShouldRotateRootBone() const {return bRotateRootBone;}
 	FORCEINLINE bool IsElimmed() const {return bElimmed;}
+	FORCEINLINE float GetHealth() const {return Health;}
+	FORCEINLINE float GetMaxHealth() const {return MaxHealth;}
+
+
 
 };
