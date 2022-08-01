@@ -54,6 +54,9 @@ void ABlasterPlayerState::AddToDefeats(int32 DefeatsAmount)
         if(Controller)
         {
             Controller->SetHUDDefeats(Defeats);
+            if(DefeatsAmount!=0)
+                Controller->SetHUDDefeatText();
+
         }
     }
 }
@@ -67,7 +70,10 @@ void ABlasterPlayerState:: OnRep_Defeats()
         Controller = Controller == nullptr ? Cast<ABlasterPlayerController>(Character->Controller) : Controller;
         if(Controller)
         {
-            Controller->SetHUDDefeats(Defeats);
+            Controller->SetHUDDefeats(Defeats); 
+            Controller->SetHUDDefeatText();
         }
     }
 }
+
+ 

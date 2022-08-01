@@ -24,8 +24,7 @@ public:
 	virtual void OnRep_Defeats();
 
 	void AddToScore(float ScoreAmount);
-	void AddToDefeats(int32 DefeatsAmount);
-
+	void AddToDefeats(int32 DefeatsAmount); 
 private:
 	UPROPERTY()
 	class ABlasterCharacter* Character;

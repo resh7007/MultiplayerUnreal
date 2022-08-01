@@ -7,6 +7,8 @@
 #include "Components/ProgressBar.h"
 #include "Components/TextBlock.h"
 #include "Blaster/Character/BlasterCharacter.h"
+#include "TimerManager.h"
+
  void ABlasterPlayerController::BeginPlay() 
  {
     Super::BeginPlay();
@@ -68,4 +70,36 @@
       FString DefeatsText = FString::Printf(TEXT("%d"),Defeats);
       BlasterHUD->CharacterOverlay->DefeatsAmount->SetText(FText::FromString(DefeatsText));
     }
+ 
  }
+
+ void ABlasterPlayerController::SetHUDDefeatText()
+ {
+   BlasterHUD = BlasterHUD == nullptr ?  Cast<ABlasterHUD>(GetHUD()) : BlasterHUD;
+    bool bHUDValid = BlasterHUD && 
+    BlasterHUD->CharacterOverlay &&
+    BlasterHUD->CharacterOverlay->LoseText;
+
+    if(bHUDValid)
+    {
+      FString DefeatsText = FString::Printf(TEXT("DEFEATED"));
+      BlasterHUD->CharacterOverlay->LoseText->SetText(FText::FromString(DefeatsText));
+    	GetWorldTimerManager().SetTimer(InputTimeHandle, this, &ABlasterPlayerController::HideHUDDefeatText, 0.01f, false, 2.1f);
+
+    }
+ }
+
+void ABlasterPlayerController::HideHUDDefeatText()
+  {
+    BlasterHUD = BlasterHUD == nullptr ?  Cast<ABlasterHUD>(GetHUD()) : BlasterHUD;
+    bool bHUDValid = BlasterHUD && 
+    BlasterHUD->CharacterOverlay &&
+    BlasterHUD->CharacterOverlay->LoseText;
+
+    if(bHUDValid)
+    {
+      FString DefeatsText = FString::Printf(TEXT(""));
+      BlasterHUD->CharacterOverlay->LoseText->SetText(FText::FromString(DefeatsText)); 
+
+    }
+  }
