@@ -19,6 +19,8 @@ public:
 	void SetHUDDefeats(int32 Defeats);
 	void SetHUDDefeatText();
 	void HideHUDDefeatText();
+	void SetHUDWeaponAmmo(int32 Ammo);
+
 	virtual void OnPossess(APawn* InPawn) override; 
 protected:
  	virtual void BeginPlay() override;
