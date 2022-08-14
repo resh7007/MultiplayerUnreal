@@ -21,14 +21,17 @@ public:
 	void HideHUDDefeatText();
 	void SetHUDWeaponAmmo(int32 Ammo);
 	void SetHUDCarriedAmmo(int32 Ammo);
+	void SetHUDMatchCountdown(float CountdownTime);
 
 	virtual void OnPossess(APawn* InPawn) override; 
+	virtual void Tick(float DeltaTime) override;
 protected:
  	virtual void BeginPlay() override;
-
+	void SetHUDTime();
 private:
 	UPROPERTY()
 	class ABlasterHUD* BlasterHUD;
 	FTimerHandle InputTimeHandle;
-
+	float MatchTime = 120.f;
+	uint32 CountDownInt=0;
 };
